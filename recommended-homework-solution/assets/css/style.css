@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: relative;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 270px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -237,3 +237,87 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+
+    .container {
+  max-width: 980px;
+  padding-left: 
+}
+
+  
+}
+
+@media screen and (max-width: 768px) {
+  /*index*/
+.container {
+  max-width: 768px;
+}
+
+#logo {
+  padding-right: 30px;
+  width: 33%;
+}
+
+nav {
+  padding-right: 25px;
+}
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+  /*index*/
+.container {
+  max-width: 640px;
+}
+
+#masthead {
+  position: static;
+  width: 100%;
+    margin-bottom: 10px;
+}
+
+#logo,
+nav {
+  clear: both;
+  width: 100%;
+}
+
+nav a {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+
+
+#main-container {
+  width: 95%;
+  padding-top: 5px;
+}
+
+.auth-image {
+  width:100%;
+}
+
+.sidebar {
+  clear: both;
+  max-width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+/*Portfolio*/
+
+.work {
+  clear: both;
+  width: 100%;
+}
+
+}
+
+
