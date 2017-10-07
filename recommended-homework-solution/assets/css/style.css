@@ -242,10 +242,46 @@ input[type=submit] {
 
     .container {
   max-width: 980px;
-  padding-left: 
+  max-height: 1118px;
 }
 
-  
+#logo {
+  margin-left: 120px;
+  width: 250px;
+}
+
+nav {
+  padding-right: 100px;
+}
+
+#main-container {
+  padding-top: 10px;
+
+}
+
+.main-section {
+  max-width: 425px;
+  height: auto;
+  margin-left: 120px;
+  margin-bottom: 100px;
+  padding-left: 60px;
+}
+
+.auth-image {
+  width: 360px;
+}
+
+.sidebar {
+  margin-right: 85px;
+}
+
+.work img {
+  max-width: 500px;
+  margin-right: 0;
+}
+
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -290,11 +326,11 @@ nav {
   margin-right: 15px;
 }
 
-/*contact*/
-
-
-
 }
+
+
+
+
 
 @media screen and (max-width: 640px) {
   /*index*/
